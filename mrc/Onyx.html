@@ -8,16 +8,16 @@
     <!-- Seo -->
     <meta name="title" content="Play Onyx" />
     <meta name="description" content="A Web Media Player Which You need for your daily tasks" />
-    <meta name="copyright" content="MainRoute Core" />
+    <meta name="copyright" content="MicroResearch Corporation" />
     <meta name="keywords" content="Plaer. web player, spotifyalternativ, yt play, playit" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mainroute-core.github.io/Play-Onyx/" />
+    <meta property="og:url" content="https://microresearch-corporation.github.io/Play-Onyx/" />
     <meta property="og:title" content="Play Onyx" />
     <meta property="og:description" content="A Web Media Player Which You need for your daily tasks" />
     <meta property="og:image"
         content="http://res.cloudinary.com/dpu5ywrox/image/upload/v1768760068/tavazlv3d1rlywnmpy3o.png" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://mainroute-core.github.io/Play-Onyx/" />
+    <meta property="twitter:url" content="https://microresearch-corporation.github.io/Play-Onyx/" />
     <meta property="twitter:title" content="Play Onyx" />
     <meta property="twitter:description" content="A Web Media Player Which You need for your daily tasks" />
     <meta property="twitter:image"
@@ -45,8 +45,8 @@
             --md-sys-color-background: #0f1014;
             --md-sys-color-surface: #1e1f23;
             --md-sys-color-surface-variant: #2d2e34;
-            --md-sys-color-primary: #ee44ff;
-            --md-sys-color-on-primary: #ffddff;
+            --md-sys-color-primary: #d0bcff;
+            --md-sys-color-on-primary: #381e72;
             --md-sys-color-secondary-container: #4a4458;
             --md-sys-color-on-surface: #e6e1e5;
             --md-sys-color-on-surface-variant: #cac4d0;
@@ -58,8 +58,8 @@
             --md-sys-color-background: #fffbff;
             --md-sys-color-surface: #f7f2fa;
             --md-sys-color-surface-variant: #e7e0ec;
-            --md-sys-color-primary: #773388;
-            --md-sys-color-on-primary: #ffddff;
+            --md-sys-color-primary: #6750a4;
+            --md-sys-color-on-primary: #ffffff;
             --md-sys-color-secondary-container: #e8def8;
             --md-sys-color-on-surface: #1c1b1f;
             --md-sys-color-on-surface-variant: #49454f;
@@ -142,7 +142,7 @@
         .nav-item {
             width: 56px;
             height: 56px;
-            border-radius: 16px;
+            border-radius: 28px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -228,101 +228,7 @@
             animation: brand 102s linear infinite;
         }
 
-        @keyframes brand {
-            0% {
-                scale: 0.5;
-                opacity: 0;
-            }
-
-            2.94% {
-                scale: 1;
-                opacity: 1;
-                top: 0;
-                left: 0;
-            }
-
-            12% {
-                color: var(--accent);
-                transform: rotate3d(1, 1, 1, 0deg);
-            }
-
-            14% {
-                color: var(--md-sys-color-on-primary);
-                transform: rotate3d(1, 1, 1, 180deg);
-            }
-
-            16% {
-                color: var(--accent);
-                transform: rotate3d(1, 1, 1, 360deg);
-            }
-
-            29.41% {
-                opacity: 1;
-                scale: 1;
-                color: var(--accent);
-                top: calc(100% - 32px);
-                left: 0;
-            }
-
-            30.88% {
-                opacity: 0;
-                scale: 0.5;
-                color: var(--md-sys-color-on-primary);
-                top: calc(100% - 32px);
-                left: 0;
-            }
-
-            42.65% {
-                opacity: 0;
-                scale: 0.5;
-                color: var(--md-sys-color-on-primary);
-                top: calc(100% - 32px);
-                left: calc(100% - 200px);
-            }
-
-            44.12% {
-                opacity: 1;
-                scale: 1;
-                color: var(--accent);
-                top: calc(100% - 32px);
-                left: calc(100% - 200px);
-            }
-
-            56% {
-                color: var(--accent);
-                transform: rotate3d(1, 1, 1, 360deg);
-            }
-
-            58% {
-                color: var(--md-sys-color-on-primary);
-                transform: rotate3d(1, 1, 1, 180deg);
-            }
-
-            60% {
-                color: var(--accent);
-                transform: rotate3d(1, 1, 1, 0deg);
-            }
-
-            70.59% {
-                opacity: 1;
-                top: 0;
-                scale: 1;
-                left: calc(100% - 200px);
-            }
-
-            73.53% {
-                scale: 0.5;
-                opacity: 0;
-                top: 0;
-                left: calc(100% - 200px);
-            }
-
-            100% {
-                opacity: 0;
-                top: 0;
-                left: calc(100% - 200px);
-            }
-        }
+        @keyframes brand{ 0%{ scale: 0.5; opacity: 0;} 2.94%{ scale: 1; opacity: 1; top: 0; left: 0;} 12%{ color: var(--accent); transform: rotate3d(1, 1, 1, 0deg);} 14%{ color: var(--md-sys-color-on-primary); transform: rotate3d(1, 1, 1, 180deg);} 16%{ color: var(--accent); transform: rotate3d(1, 1, 1, 360deg);} 29.41%{ opacity: 1; scale: 1; color: var(--accent); top: calc(100% - 32px); left: 0;} 30.88%{ opacity: 0; scale: 0.5; color: var(--md-sys-color-on-primary); top: calc(100% - 32px); left: 0;} 42.65%{ opacity: 0; scale: 0.5; color: var(--md-sys-color-on-primary); top: calc(100% - 32px); left: calc(100% - 200px);} 44.12%{ opacity: 1; scale: 1; color: var(--accent); top: calc(100% - 32px); left: calc(100% - 200px);} 56%{ color: var(--accent); transform: rotate3d(1, 1, 1, 360deg);} 58%{ color: var(--md-sys-color-on-primary); transform: rotate3d(1, 1, 1, 180deg);} 60%{ color: var(--accent); transform: rotate3d(1, 1, 1, 0deg);} 70.59%{ opacity: 1; top: 0; scale: 1; left: calc(100% - 200px);} 73.53%{ scale: 0.5; opacity: 0; top: 0; left: calc(100% - 200px);} 100%{ opacity: 0; top: 0; left: calc(100% - 200px);}}
 
         video {
             width: 100%;
@@ -636,7 +542,7 @@
         .btn-icon {
             width: 40px;
             height: 40px;
-            border-radius: 10px;
+            border-radius: 50%;
             border: none;
             background: transparent;
             color: var(--md-sys-color-on-surface-variant);
@@ -737,8 +643,6 @@
             background: transparent;
             height: 4px;
             width: 100%;
-            min-width: 70px;
-            max-width: 100px;
             cursor: pointer;
         }
 
@@ -984,11 +888,6 @@
                 z-index: 400;
             }
 
-            .track-meta {
-                position: fixed;
-                top: 0;
-            }
-
             .vol-grp {
                 display: none !important;
             }
@@ -1058,6 +957,11 @@
 
             .player-bar {
                 padding: 0;
+            }
+
+            .track-meta {
+                position: fixed;
+                top: 0;
             }
 
             .track-img {
@@ -1392,7 +1296,7 @@
                         d="M19 11h-8v6h8v-6zm4 8V4.98C23 3.88 22.1 3 21 3H3c-1.1 0-2 .88-2 1.98V19c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2zm-2 .02H3V4.97h18v14.05z" />
                 </svg>
             </button>
-            <div style="width: 80px; padding: 0 8px; display: contents;">
+            <div style="width: 80px; padding: 0 8px">
                 <input type="range" id="vol-slider" min="0" max="1" step="0.05" oninput="player.volume(this.value)" />
             </div>
             <button class="btn-icon" onclick="
@@ -1471,22 +1375,23 @@
                             <path
                                 d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z" />
                         </svg>
-                        <b>MainRoute Core</b>
+                        <b>MicroResearch Corporation</b>
                     </div>
                     <p style="margin: 0 0 12px 0; font-size: 12px">
                         Dedicated to building high-performance web tools for daily digital
                         tasks. Play Onyx is an open-source initiative under the
-                        MainRoute Core media suite.
+                        MicroResearch media suite.
                     </p>
 
                     <div style="display: flex; gap: 10px">
-                        <a href="https://mainroute-core.github.io/" target="_blank" class="btn-full" style="
+                        <a href="https://microresearch-corporation.github.io/" target="_blank" class="btn-full" style="
                   text-decoration: none;
                   text-align: center;
                   font-size: 12px;
                   padding: 8px;
-                ">MainRoute Core</a>
-                        <a href="https://github.com/MainRoute-Core/Play-Onyx" target="_blank" class="btn-full" style="
+                ">Microresearch Corporation</a>
+                        <a href="https://github.com/microresearch-corporation/Play-Onyx" target="_blank"
+                            class="btn-full" style="
                   text-decoration: none;
                   text-align: center;
                   font-size: 12px;
@@ -1538,7 +1443,7 @@
             font-size: 10px;
             letter-spacing: 1px;
           ">
-                &copy; 2025-Present MainRoute Core. ALL RIGHTS RESERVED.
+                &copy; 2026 MICRORESEARCH CORPORATION. ALL RIGHTS RESERVED.
             </div>
         </div>
     </div>
