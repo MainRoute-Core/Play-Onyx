@@ -6,7 +6,7 @@
 ![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-yellow.svg)
 ![Material Design](https://img.shields.io/badge/UI-Material--3-purple.svg)
 
-**[🔗 Live Demo](https://microresearch-corporation.github.io/Play-Onyx/)**
+**[🔗 Live Demo](https://mainroute-core.github.io/Play-Onyx/)**
 
 ---
 
@@ -44,7 +44,7 @@ Since **Play Onyx** is built with Vanilla JavaScript and HTML5, it requires no i
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/microresearch-corporation/Play-Onyx.git
+   git clone https://github.com/MainRoute-Core/Play-Onyx.git
    ```
 2. **Open the project:**
    Simply open `index.html` in any modern web browser (Chrome, Edge, Firefox, or Safari).
@@ -104,4 +104,4 @@ Contributions are what make the open-source community such an amazing place to l
 
 ---
 
-**Developed with ❤️ by [M Ramzan Ch](https://mramzanch.blogspot.com/) at [Pro-Bandey](https://github.com/Pro-Bandey) under [MicroResearch Corporation](https://microresearch-corporation.github.io/)**
+**Developed with ❤️ by [M Ramzan Ch](https://mramzanch.blogspot.com/) & [Pro-Bandey](https://github.com/Pro-Bandey) under [MainRoute Core](https://mainroute-core.github.io/)**
