@@ -1,0 +1,124 @@
+{
+  "name": "Play Onyx",
+  "short_name": "Play Onyx",
+  "author": "Pro Bandey",
+  "publisher": "MainRoute Core",
+  "description": "A Web Media Player Which You need for your daily tasks",
+  "start_url": "/Play-Onyx",
+  "id": "/Play-Onyx",
+  "scope": "/Play-Onyx",
+  "dir": "auto",
+  "orientation": "any",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "lang": "en",
+
+  "theme_color": "#ee44ff",
+  "background_color": "#0f1014",
+
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "url": "/newEmail?to=%s"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Visit Us",
+      "short_name": "We",
+      "description": "Reach Us For More...",
+      "url": "./mrc/",
+      "icons": [
+        {
+          "src": "./src/mrc.png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "./favivon.ico",
+      "sizes": "any",
+      "purpose": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./src/16.png",
+      "sizes": "16x16",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/32.png",
+      "sizes": "32x32",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/48.png",
+      "sizes": "48x48",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/64.png",
+      "sizes": "64x64",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/144.png",
+      "sizes": "144x144",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/144-maskable.png",
+      "sizes": "144x144",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/192.png",
+      "sizes": "192x192",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/192-maskable.png",
+      "sizes": "192x192",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/512.png",
+      "sizes": "512x512",
+      "purpose": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/512-maskable.png",
+      "sizes": "512x512",
+      "purpose": "maskable",
+      "type": "image/png"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "./src/social.png",
+      "form_factor": "wide",
+      "sizes": "1440x810",
+      "type": "image/png",
+      "description": "Desktop view"
+    },
+    {
+      "src": "./src/social_2.png",
+      "sizes": "720x1480",
+      "type": "image/png",
+      "description": "Mobile View"
+    }
+  ]
+}

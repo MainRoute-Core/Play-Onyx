@@ -593,7 +593,7 @@ const queue = {
             div.className = `q-item ${player.active && player.active.id === item.id ? "active" : ""}`;
             div.draggable = true;
             div.innerHTML = `
-                <div class="q-thumb" style="background-image:url(${item.thumb || "src/logo-transparent.png"})"></div>
+                <div class="q-thumb" style="background-image:url(${item.thumb || "./src/512-trans.png"})"></div>
                 <div class="q-info">
                     <div class="q-title">${item.name}</div>
                 </div>
@@ -675,7 +675,7 @@ const player = {
 
         $("#curr-thumb").style.backgroundImage = item.thumb
             ? `url(${item.thumb})`
-            : "url(src/logo-transparent.png)";
+            : "url(./src/512-trans.png)";
 
         const isAudio = item.type.startsWith("audio");
         player.el.style.opacity = isAudio ? 0 : 1;
@@ -907,7 +907,7 @@ const ui = {
         const t = $("#curr-title");
         t.innerHTML = "<span>No Media</span>";
         t.classList.remove("animate");
-        $("#curr-thumb").style.backgroundImage = "url(src/logo-transparent.png)";
+        $("#curr-thumb").style.backgroundImage = "url(./src/512-trans.png)";
         $("#curr-time").innerText = "00:00";
         $("#total-time").innerText = "00:00";
         $("#seek-fill").style.width = "0%";
